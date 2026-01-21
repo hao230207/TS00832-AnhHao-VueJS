@@ -13,12 +13,14 @@
         .navbar-brand img { height: 45px; }
         .my-container { margin-top: 10px; margin-bottom: 20px; }
         
+        /* Active Menu */
         .navbar-nav .nav-link.active {
             color: #7cbd1e !important;
             border-bottom: 3px solid #7cbd1e;
             font-weight: bold;
         }
 
+        /* Ảnh tròn cột trái - Kích thước 80px theo mẫu */
         .circle-thumb { 
             width: 80px; 
             height: 80px; 
@@ -27,6 +29,7 @@
             flex-shrink: 0; 
         }
 
+        /* Card bài viết cột phải */
         .card-post { 
             height: 100%; 
             border: 1px solid #dee2e6;
@@ -37,6 +40,7 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         
+        /* Hiển thị ảnh FULL tỉ lệ gốc */
         .card-post img { 
             width: 100%;
             height: auto; 
@@ -49,6 +53,7 @@
             border-color: #0dcaf0;
         }
 
+        /* Card Header xám nhẹ cho tiêu đề */
         .card-header {
             padding: 15px;
             background-color: rgba(0,0,0,.03); 
@@ -113,7 +118,7 @@
     <div class="row">
         
         <div class="col-sm-4">
-            <h3 class="text-info mb-3">Chuyên mục</h3>
+            <h3 class="text-info mb-3" style="font-weight: normal;">Chuyên mục</h3>
             <ul class="list-group mb-5">
                 <li class="list-group-item d-flex justify-content-between align-items-center active">
                     <a href="#" class="text-white text-decoration-none">Chế độ tập</a>
@@ -131,7 +136,7 @@
 
             <div class="card mb-4">
                 <div class="card-header"> 
-                     <h3 class="text-info mb-0">Bài viết nổi bật</h3>
+                     <h3 class="text-info mb-0" style="font-weight: normal;">Bài viết nổi bật</h3>
                 </div>
                 <div class="card-body">
                     <div class="d-flex align-items-start mb-5 pb-2">
@@ -160,15 +165,17 @@
         </div>
 
         <div class="col-sm-8">
-            <h3 class="text-info mb-3">Tất cả bài viết</h3>
+            <h3 class="text-info mb-3" style="font-weight: normal;">Tất cả bài viết</h3>
             
             <div class="row">
                 <div class="col-md-6 mb-4">
                     <div class="card card-post h-100">
                         <div class="card-header">
-                            <h5 class="card-title fw-bold mb-0" style="font-size: 16px;">
-                                Phương pháp tập Pilates giúp phục hồi chấn thương cột sống <i class="fa-solid fa-message text-muted ms-1"></i> 16
-                            </h5>
+                            <a href="bai4.html" class="text-decoration-none text-dark">
+                                <h5 class="card-title fw-bold mb-0" style="font-size: 16px;">
+                                    Phương pháp tập Pilates giúp phục hồi chấn thương cột sống <i class="fa-solid fa-message text-muted ms-1"></i> 16
+                                </h5>
+                            </a>
                         </div>
                         <div class="card-body">
                             <img src="images/tap-piltes.jpg" class="img-fluid" alt="Pilates Group">
@@ -221,7 +228,7 @@
             </div>
 
             <div class="d-flex justify-content-center mt-3">
-                <ul class="pagination">
+                <ul class="pagination shadow-none">
                     <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-arrow-left"></i></a></li>
                     <li class="page-item active"><a class="page-link" href="#">1</a></li>
                     <li class="page-item"><a class="page-link" href="#">2</a></li>
