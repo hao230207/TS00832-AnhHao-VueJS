@@ -1,7 +1,7 @@
 <script setup>
-  import Hello from './components/Hello.vue';
+import Bai3 from './components/Bai3.vue';
 </script>
 
 <template>
-  <Hello></Hello>
+  <Bai3/>
 </template>
