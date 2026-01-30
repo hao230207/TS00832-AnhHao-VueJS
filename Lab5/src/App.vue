@@ -3,11 +3,11 @@
     <h1 class="text-center mt-3">Lab 5 - VueJS</h1>
     <hr>
     
-    <Bai1 />
+    <bai2 />
     </div>
 </template>
 
 <script setup>
-import Bai1 from './components/Lab5/Bai1.vue';
-
+import bai1 from './components/bai1.vue';
+import bai2 from './components/bai2.vue';
 </script>
