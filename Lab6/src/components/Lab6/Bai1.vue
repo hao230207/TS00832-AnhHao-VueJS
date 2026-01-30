@@ -23,6 +23,5 @@
 <script setup>
 import { ref } from 'vue';
 
-// Khởi tạo biến score mặc định bằng 0 như hướng dẫn
 const score = ref(0);
-</script>
+</script>   
