@@ -1,13 +1,13 @@
 <template>
-<div class="p-5">
-<p>{{ message }}</p>
-<button class="btn btn-dark" @click="updateMessage">Thay đổi thông điệp</button>
-</div>
+  <div id="app">
+    <h1 class="text-center mt-3">Lab 5 - VueJS</h1>
+    <hr>
+    
+    <Bai1 />
+    </div>
 </template>
+
 <script setup>
-import { ref } from 'vue';
-const message = ref('Thông điệp ban đầu');
-const updateMessage = () => {
-message.value = 'Thông điệp đã được thay đổi!';
-};
+import Bai1 from './components/Lab5/Bai1.vue';
+
 </script>
