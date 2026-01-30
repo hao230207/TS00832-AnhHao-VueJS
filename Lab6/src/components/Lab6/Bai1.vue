@@ -1,0 +1,28 @@
+<template>
+  <div class="container mt-3">
+    <h3>Nhập điểm của bạn:</h3>
+    
+    <input 
+      type="number" 
+      v-model="score" 
+      min="0" 
+      max="10" 
+      step="0.1"
+      class="form-control mb-2" 
+      style="width: 150px;" 
+    />
+
+    <p v-if="score >= 9">Xuất sắc</p>
+    <p v-else-if="score >= 8">Giỏi</p>
+    <p v-else-if="score >= 6.5">Khá</p>
+    <p v-else-if="score >= 5">Trung bình</p>
+    <p v-else>Yếu</p>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+// Khởi tạo biến score mặc định bằng 0 như hướng dẫn
+const score = ref(0);
+</script>
