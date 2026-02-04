@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "HLV Ten Hag phát biểu trước trận Derby",
+      "image": "https://p2.hostingprod.com/@manutd.com/mu/HLV-Ten-Hag.jpg",
+      "desc": "MU sẵn sàng cho trận chiến tại Old Trafford...",
+      "content": "Manchester United đang chuẩn bị rất kỹ lưỡng cho trận derby thành phố diễn ra vào cuối tuần này. HLV Ten Hag tin rằng tinh thần các cầu thủ đang ở mức cao nhất.",
+      "author": "Anh Hào",
+      "date": "2026-02-04"
+    },
+    {
+      "id": "3fe3",
+      "title": "123",
+      "desc": "123",
+      "content": "123",
+      "image": "https://p2.hostingprod.com/@manutd.com/mu/HLV-Ten-Hag.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": "1",
+      "name": "Admin",
+      "text": "Trận đấu rất đáng mong chờ!",
+      "time": "14:30 04/02/2026"
+    },
+    {
+      "id": "7839",
+      "postId": "1",
+      "name": "Anh Hào",
+      "text": "ádsa",
+      "time": "2/4/2026, 10:44:51 PM"
+    }
+  ],
+  "profile": {
+    "name": "Anh Hào 232",
+    "email": "hao@fpt.edu.vn",
+    "avatar": "https://p2.hostingprod.com/@manutd.com/mu/logo-mu.png"
+  },
+  "users": [
+    {
+      "id": "1",
+      "name": "Anh Hào",
+      "email": "hao@fpt.edu.vn",
+      "password": "123"
+    },
+    {
+      "id": "4700",
+      "name": "hao",
+      "email": "adudarkqua232@gmail.com",
+      "password": "baythangson123"
+    },
+    {
+      "id": "1770218993229",
+      "name": "hào",
+      "email": "haobnats00832@fpt.edu.vn",
+      "password": "123"
+    }
+  ]
+}
