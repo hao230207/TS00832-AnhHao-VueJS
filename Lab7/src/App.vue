@@ -1,6 +1,6 @@
 <script setup>
-import Bai1 from './components/Bai1.vue'
-
+import Bai1 from './components/Bai1.vue';
+import Bai2 from './components/Bai2.vue';
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import Bai1 from './components/Bai1.vue'
     
 
    
-    <Bai1 />
+    <Bai2 />
 
 
 </template>
